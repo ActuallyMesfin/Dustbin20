@@ -1,23 +1,26 @@
-import random
-#A CUSTOM LOADOUT MAKER FOR SOLDIER! WILL NOT IMPLEMENT UI UNLESS INTOXICATED
-primary = ["RCJP", "BGBZ", "CWMN", "ORGN", "BLBX", "DRHT", "STCK", "LBLN", "AIRS"]
-secondary = ["SHTG", "BFBN", "GNBO", "BABA", "CONC", "MNTR", "RSSH", "RIBS", "BASE", "PNAT"]
-melee = ["SHVL", "MRKT", "FPAN", "COOB", "HASH", "EQLZ", "PATR", "HAZA", "DIAC", "ESPL"]
+from weapons import Weapon
 
+scout_weapon_list_primary = {
+    "Scattergun"
+    "Force-A-Nature"
+    "Shortstop"
+    "Soda Popper"
+    "Baby Face's Blaster"
+    "Back Scatter"
+}
+scout_weapon_list_secondary = {
+    "Bonk! Atomic Punch"
+    "Crit-a-Cola"
+    "MadMilk"
+    "Winger"
+    "Pretty Boy's Pocket Pistol"
+}
+scout_weapon_list_melee = {
+    "Bat"
+    "Holy Mackerel"
+    "Unarmed Combat (Fish)"
+    "Sandman"
+    "Atomizer"
+    "Wrap Assassin"
+}
 
-while True:
-
-    x = random.choice(primary)
-    y = random.choice(secondary)
-    z = random.choice(melee)
-
-    cmnd = input(">> ")
-
-    if cmnd == "roll":
-        print(f"{x}, {y}, {z}")
-        continue
-        
-    else:
-        continue
-    
-        
