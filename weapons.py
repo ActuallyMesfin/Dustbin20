@@ -5,3 +5,4 @@ class Weapon():
         self.primary = primary
         self.secondary = secondary
         self.melee = melee
+        
